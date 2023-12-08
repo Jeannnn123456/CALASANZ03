@@ -1,0 +1,124 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:SlateBlue;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:Seagreen;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+	    }
+	.main {
+	    background:MediumSeaGreen;
+	    font-size:1.5em;
+		text-align:center;
+		padding:10px;
+		}
+	.aside {
+	    background:Seagreen;
+	    font-size:2em;
+		text-align:center;
+		}
+	.footer {
+	    background:SlateBlue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:1px solid black;
+			grid-template-rows:1fr 3fr 1fr 1fr;
+ 		    }
+		.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+		.aside {
+	    background:orange;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}	
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:1px solid black;
+			grid-template-rows:1fr 1fr 5fr 1fr 1fr;
+ 		    }
+		.header {
+	    background:SlateBlue;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:mediumSeagreen;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.aside {
+	    background:mediumSeagreen;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:SlateBlue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>TALENTS</title>
+	</head>
+<body bgcolor=DarkSlateBlue>
+
+<div class=container>	
+   
+    <div class=header>TALENTS</div>
+	<div class=nav><a href=index.html>MAIN</a>
+	<a href=ABOUT.html>ABOUT ME</a><a href=SKILLS.html>MY SKILLS</a></div>
+	<div class=main>I am an artist and i like to draw or sculpt with clay, I also like play games online or outside like futsal/football, video games and much more. </div>
+	<div class=aside>ASIDE</div>
+	<div class=footer>FOOTER</div>
+	
+	</div>
+</body>
+</html>	
