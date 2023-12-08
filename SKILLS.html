@@ -1,0 +1,124 @@
+<html>
+    <head>
+	<style>
+	.container {
+        display:grid;
+		border:5px solid black;
+		grid-template-rows:1fr 3fr 1fr;
+		}
+	.header {
+	    background:SlateBlue;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:mediumSeagreen;
+		display:flex;
+		flex-direction:column;
+	    font-size:1.5em;
+		text-align:center;
+	    }
+	.main {
+	    background:Yellow;
+	    font-size:1.5em;
+		text-align:center;
+		padding:10px;
+		}
+	.aside {
+	    background:mediumSeagreen;
+	    font-size:2em;
+		text-align:center;
+		}
+	.footer {
+	    background:SlateBLue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+		
+	@media only screen and (max-width:600px) {
+	    
+		.container{
+		    display:grid;
+			border:1px solid black;
+			grid-template-rows:1fr 3fr 1fr 1fr;
+ 		    }
+		.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 2;
+		}
+		.aside {
+	    background:orange;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}	
+	 }
+	 @media only screen and (max-width:300px) {
+	    
+		.container{
+		    display:grid;
+			border:1px solid black;
+			grid-template-rows:1fr 1fr 5fr 1fr 1fr;
+ 		    }
+		.header {
+	    background:red;
+		font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.nav {
+	    background:green;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+	    }
+	.main {
+	    background:blue;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.aside {
+	    background:orange;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;
+		}
+	.footer {
+	    background:yellow;
+	    font-size:2em;
+		text-align:center;
+		grid-column:span 3;                                      
+	
+		}
+	
+	
+	
+	    }
+	</style>
+	    <title>SKILLS</title>
+	</head>
+<body>
+
+<div class=container>	
+   
+    <div class=header>SKILLS</div>
+	<div class=nav><a href=MAIN.html>MAIN</a>
+	<a href=ABOUT.html>ABOUT ME</a><a href=TALENTS.html>MY TALENTS</a></div>
+	<div class=main>I can draw/paint, cook and play football. </div>
+	<div class=aside>ASIDE</div>
+	<div class=footer>FOOTER</div>
+	
+	</div>
+</body>
+</html>	
